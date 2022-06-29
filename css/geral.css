@@ -291,3 +291,23 @@ body {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+[data-semana].aberto::after{
+  display: inline-block;
+  content:'';
+  width: 8px;
+  height: 8px;
+  background: green;
+  border-radius: 50%;
+  margin-left:4px;
+  border:2px solid #000;
+}
+[data-semana]::after{
+  display: inline-block;
+  content:'';
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  margin-left:4px;
+  border:2px solid #000;
+}
